@@ -1,0 +1,21 @@
+GET http://localhost:5000/api/posts
+Content-Type: application/json
+
+
+###
+POST http://localhost:5000/api/posts
+Content-Type: application/json
+
+###
+POST http://localhost:5000/api/posts
+Content-Type: application/json
+
+{
+  "title": "My Awesome Blog Post",
+  "content": "This is a fully valid post.",
+  "author": "64b1f7d7a0c1234567890abc",
+  "category": "64b20f65b5c1234567890def"
+}
+
+
+
